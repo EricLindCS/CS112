@@ -1,0 +1,45 @@
+header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    text-align: center;
+    
+}
+
+body{
+    max-width:1000px;
+    padding:1em;
+    font-family:Helvetica,Arial,sans-serif;
+    margin-bottom:50px;
+    background-color: aquamarine;
+    
+}
+.pageTitle{
+    border:1px solid black;
+    padding:.5em;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+nav {
+  display: block;
+    text-align: center;
+    background-color: white;
+     padding:.5em;
+     border:1px solid black;
+
+}
+footer {
+    position: fixed;
+    height: 50px;
+    background-color: green;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+    
+
+    
+    
