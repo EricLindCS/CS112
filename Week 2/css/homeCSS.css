@@ -59,6 +59,7 @@ float: right;
     padding:.5em;
     text-align:right;
     height: 375px;
+    text-size-adjust: 50;
 }    
 
 .Section2 {
