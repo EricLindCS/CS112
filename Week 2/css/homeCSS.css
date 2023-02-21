@@ -13,8 +13,6 @@ body{
     margin-bottom:50px;
     background-color: aquamarine;
        clear: both;
-
-       max-width:1000px;
     
 }
 .pageTitle{
@@ -65,7 +63,7 @@ float: right;
     
 footer {
     position: fixed;
-    height: 50px;
+    height: 30px;
     background-color: green;
     bottom: 5px;
     left: 5px;
@@ -73,7 +71,7 @@ footer {
     margin-bottom: 0px;
     text-align: center;
     color: white;
-    padding: 5,0,0,0;
+    padding: 0,0,0,0;
     
 }
     
