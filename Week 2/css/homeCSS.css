@@ -42,7 +42,17 @@ float: right;
     float: left;    
      margin: 15px 15px 15px 15px;
 }
- 
+
+.Section0 {
+    margin: 3px 15px 15px 3px;
+     border:1px solid black;
+    color:rgb(0, 0, 0);
+    padding:.5em;
+    text-align:center;
+    height: 175px;
+    background-color: rgb(205, 163, 245);
+}
+
 .Section1 {
     margin: 3px 15px 15px 3px;
      border:1px solid black;
