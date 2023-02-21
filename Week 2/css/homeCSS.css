@@ -12,13 +12,15 @@ body{
     font-family:Helvetica,Arial,sans-serif;
     margin-bottom:50px;
     background-color: aquamarine;
-    
+       clear: both;
 }
 .pageTitle{
     border:1px solid black;
     padding:.5em;
     margin: auto;
     text-align: center;
+    
+
     background-color: white;
 }
 nav {
@@ -29,9 +31,24 @@ nav {
      border:1px solid black;
 
 }
+
+#hp  {
+float: right;    
+ margin: 0 0 0 15px;
+
+#hp2  {
+float: left;    
+ margin: 0 15px 0 0;
+}
+
+    
+.clearImage {
+     
+}    
+    
 footer {
     position: fixed;
-    height: 50px;
+    height: 0px;
     background-color: green;
     bottom: 5px;
     left: 5px;
