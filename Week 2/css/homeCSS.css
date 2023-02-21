@@ -52,6 +52,15 @@ float: right;
     background-color: rgb(205, 163, 245);
 }
 
+.Section1Intro{
+    display: block;
+    margin: 3px 15px 15px 3px;
+    text-align: center;
+    background-color: white;
+     padding:.5em;
+     border:1px solid black; 
+}
+
 .Section1 {
     margin: 3px 15px 15px 3px;
      border:1px solid black;
