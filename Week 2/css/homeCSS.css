@@ -7,14 +7,15 @@ header{
 }
 
 body{
-    max-width:1000px;
+   
     padding:1em;
     font-family:Helvetica,Arial,sans-serif;
     margin-bottom:50px;
     background-color: aquamarine;
        clear: both;
-    
-    
+
+
+       !max-width:1000px;
     
 }
 .pageTitle{
@@ -37,20 +38,21 @@ nav {
 
 #hp  {
 float: right;    
- margin: 0 0 0 15px;
-
-#hp2  {
-float: left;    
- margin: 0 15px 0 0;
+ margin: 15px 15px 15px 15px;
 }
 
-    
+#hp2  {
+    float: left;    
+     margin: 0 15px 0 0;
+}
+ 
 .Section1 {
-    bottom: 5px;
-    left: 5px;
-    right: 5px;
+    margin: 3px 15px 15px 3px;
      border:1px solid black;
     color:green;
+    padding:.5em;
+    text-align:right;
+    height: 300px;
 }    
     
 footer {
