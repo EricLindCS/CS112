@@ -43,7 +43,7 @@ float: right;
 
 #hp2  {
     float: left;    
-     margin: 0 15px 0 0;
+     margin: 15px 15px 15px 15px;
 }
  
 .Section1 {
@@ -54,6 +54,15 @@ float: right;
     text-align:right;
     height: 300px;
 }    
+
+.Section2 {
+    margin: 15px 15px 15px 3px;
+     border:1px solid black;
+    color:green;
+    padding:.5em;
+    text-align:left;
+    height: 300px;
+}
     
 footer {
     position: fixed;
