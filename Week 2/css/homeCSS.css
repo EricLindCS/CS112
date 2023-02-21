@@ -48,7 +48,7 @@ float: right;
     color:rgb(0, 0, 0);
     padding:.5em;
     text-align:center;
-    height: 175px;
+    height: 288px;
     background-color: rgb(205, 163, 245);
 }
 
@@ -94,3 +94,7 @@ footer {
     
 }
     
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
