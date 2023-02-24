@@ -30,17 +30,10 @@ body{
     background-color: white;
 }
 
-#CARescue{
+#CARescue, .OtherStates{
     border:1px solid black;
-    padding:.2em;
-    margin: 5;
-    text-align: center;
-    background-color: white;
-}
-.OtherStates{
-    border:1px solid black;
-    padding:.2em;
-    margin: 5;
+    padding:.1em;
+    margin: 11px 85px 5px 85px;
     text-align: center;
     background-color: white;
 }
@@ -71,7 +64,7 @@ float: right;
     color:rgb(0, 0, 0);
     padding:.5em;
     text-align:center;
-    height: 300px;
+    height: 285px;
     background-color: rgb(205, 163, 245);
 }
 
