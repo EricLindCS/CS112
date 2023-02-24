@@ -35,6 +35,7 @@ nav {
 #fr  {
 float: right;    
  margin: 15px 15px 15px 15px;
+ 
 }
 
 #fl  {
@@ -43,7 +44,7 @@ float: right;
 }
 
 .Section0 {
-    margin: 3px 15px 15px 3px;
+    margin: 15px 15px 15px 3px;
      border:1px solid black;
     color:rgb(0, 0, 0);
     padding:.5em;
@@ -69,7 +70,7 @@ float: right;
    text-align:left;
    background-color: rgb(205, 163, 245);
    display: inline-block;
-   width:400;
+   width:350px;
 }
 
 .Section3 {
