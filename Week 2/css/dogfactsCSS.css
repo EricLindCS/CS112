@@ -32,12 +32,12 @@ nav {
 
 }
 
-#hp  {
+#fr  {
 float: right;    
  margin: 15px 15px 15px 15px;
 }
 
-#hp2  {
+#fl  {
     float: left;    
      margin: 15px 15px 15px 15px;
 }
@@ -66,8 +66,10 @@ float: right;
     border:1px solid black;
    color:rgb(0, 0, 0);
    padding:.5em;
-   text-align:center;
+   text-align:left;
    background-color: rgb(205, 163, 245);
+   display: inline-block;
+   width:400;
 }
 
 .Section3 {
