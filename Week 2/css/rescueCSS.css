@@ -22,6 +22,29 @@ body{
     text-align: center;
     background-color: white;
 }
+.RescueBanner{
+    border:1px solid black;
+    padding:.5em;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+#CARescue{
+    border:1px solid black;
+    padding:.2em;
+    margin: 5;
+    text-align: center;
+    background-color: white;
+}
+.OtherStates{
+    border:1px solid black;
+    padding:.2em;
+    margin: 5;
+    text-align: center;
+    background-color: white;
+}
+
 
 nav {
   display: block;
@@ -48,7 +71,7 @@ float: right;
     color:rgb(0, 0, 0);
     padding:.5em;
     text-align:center;
-    height: 320px;
+    height: 300px;
     background-color: rgb(205, 163, 245);
 }
 
