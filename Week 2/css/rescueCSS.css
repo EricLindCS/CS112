@@ -36,6 +36,7 @@ body{
     margin: 11px 85px 5px 85px;
     text-align: center;
     background-color: white;
+    padding:.9em;
 }
 
 
@@ -68,53 +69,35 @@ float: right;
     background-color: rgb(205, 163, 245);
 }
 
-.Section1Intro{
-    display: block;
-    margin: 3px 15px 15px 3px;
-    text-align: center;
-    background-color: white;
-     padding:.5em;
-     border:1px solid black; 
-}
-
-
-.AgeOldDebate{
-    display: block;
-    margin: 3px 10px 10px 3px;
-    text-align: center;
-    background-color: white;
-     padding:.3em;
-     border:1px solid black; 
-}
-
-.Section1 {
+.CA-ORG1 {
     margin: 3px 15px 15px 3px;
      border:1px solid black;
     color:rgb(66, 32, 32);
     background-color: white;
-    padding:.5em;
+    padding:.9em;
     text-align:right;
     height: 375px;
 }    
 
-.Section2 {
+.CA-ORG2 {
     margin: 15px 15px 15px 3px;
      border:1px solid black;
     color:rgb(22, 34, 22);
-    padding:.5em;
+    padding:.9em;
     background-color: white;
     text-align:left;
     height: 375px;
 }
 
-.Section3 {
+.OtherOrgs {
     margin: 15px 15px 15px 3px;
-    border:1px solid black;
-   color:rgb(0, 0, 0);
-   padding:.5em;
-   text-align:center;
-   height: 175px;
-   background-color: rgb(205, 163, 245);
+     border:1px solid black;
+    color:rgb(22, 34, 22);
+    padding:.9em;
+    background-color: white;
+    text-align:left;
+    height: 375px;
+    text-size-adjust: 5pt;
 }
     
 footer {
