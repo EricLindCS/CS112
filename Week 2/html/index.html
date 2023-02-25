@@ -4,8 +4,20 @@
 
 <head>
 <title>Dogs!</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+   $(".img").mouseover(function(){
+  var newSrc = $(this).attr("src").replace("../images/mocha.jpg", "../images/mocha1.jpg");
+  $(this).attr("src", newSrc); 
+});
+$(".img").mouseout(function(){
+  var newSrc = $(this).attr("src").replace("../images/mocha1.jpg", "../images/mocha.jpg");
+  $(this).attr("src", newSrc); 
+});
+</script>
 <link rel="stylesheet" href="../css/homeCSS.css">  
 </style>
+
 </head>
 
 <body>
@@ -47,7 +59,7 @@
 </div>
 
 <div class="Section1">
-<img src="../images/mocha.jpg" alt="An Image" width="350" id="hp"/>
+<img class="img" src="../images/mocha.jpg" alt="An Image" width="350" id="hp"/>
 <h1>My Dog: Mocha</h1>
 <h4>
  <p>Mocha is 7 years old, and my family rescued her from the Best Friends LA animal shelter in 2017.</p>
