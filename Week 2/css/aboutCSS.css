@@ -77,16 +77,14 @@ float: right;
     background-color: white;
     padding:.5em;
     text-align:left;
-    height: 375px;
 }    
 
 .Section3 {
     margin: 15px 15px 15px 3px;
     border:1px solid black;
    color:rgb(0, 0, 0);
-   padding:.5em;
+   padding:1.5em;
    text-align:center;
-   height: 175px;
    background-color: rgb(205, 163, 245);
 }
     
