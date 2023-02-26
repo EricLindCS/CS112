@@ -6,6 +6,16 @@
 <title>Dogs!</title>
 <link rel="stylesheet" href="../css/rescueCSS.css">  
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<script>  
+$(document).ready(function(){  
+  $("#hp").hover(function(){  
+    $(this).attr('src','../images/servicesimg1.jpg');  
+    }, function(){  
+    $(this).attr('src','../images/index.jpg');  
+  }); 
+});  
+</script>
 </head>
 
 <body>
@@ -29,6 +39,8 @@
 
  <p>Dogs can be there for you even when people can't. <br> They offer unconditional love, emotional support, and constant cuddles that help stave off social isolation. <br> So, give back to those lovable animals by rescuing them!</p>
 
+<img src="../images/servicesimg1.jpg" alt="Two Very cute puppies" width="200" id="hp"/>
+     
       <h4>Here are some helpful links to resources to find rescure orginizations in the United States near you!</h4>
       <div id="doglinks">
       <ul>

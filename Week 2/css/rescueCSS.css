@@ -49,8 +49,7 @@ nav {
 
 }
 
-#hp  {
-float: right;    
+#hp  {   
  margin: 15px 15px 15px 15px;
 }
 
@@ -65,7 +64,6 @@ float: right;
     color:rgb(0, 0, 0);
     padding:.5em;
     text-align:center;
-    height: 285px;
     background-color: rgb(205, 163, 245);
 }
 
