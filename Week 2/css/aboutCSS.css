@@ -43,13 +43,12 @@ float: right;
 }
 
 .Section0 {
+    display: block;
     margin: 3px 15px 15px 3px;
-     border:1px solid black;
-    color:rgb(0, 0, 0);
-    padding:.5em;
-    text-align:center;
-    height: 320px;
-    background-color: rgb(205, 163, 245);
+    text-align: center;
+    background-color: white;
+     padding:.5em;
+     border:1px solid black; 
 }
 
 .Section1Intro{
@@ -62,7 +61,7 @@ float: right;
 }
 
 
-.AgeOldDebate{
+.Contact {
     display: block;
     margin: 3px 10px 10px 3px;
     text-align: center;
