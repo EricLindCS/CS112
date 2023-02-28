@@ -49,12 +49,13 @@ nav {
 
 }
 
-#hp  {   
+#hp  {  
+    float: right; 
  margin: 15px 15px 15px 15px;
 }
 
 #hp2  {
-    float: left;    
+    float: center;    
      margin: 15px 15px 15px 15px;
 }
 
@@ -74,7 +75,6 @@ nav {
     background-color: white;
     padding:.9em;
     text-align:right;
-    height: 190px;
 }    
 
 .CA-ORG2 {
@@ -84,7 +84,6 @@ nav {
     padding:.9em;
     background-color: white;
     text-align:left;
-    height: 190px;
 }
 
 .OtherOrgs {
