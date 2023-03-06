@@ -69,17 +69,14 @@ float: right;
    padding:.5em;
    text-align:left;
    background-color: rgb(205, 163, 245);
-   display: inline-block;
-   width:350px;
-}
-
+ }
+ 
 .Section3 {
     margin: 15px 15px 15px 3px;
     border:1px solid black;
    color:rgb(0, 0, 0);
    padding:.5em;
    text-align:center;
-   height: 175px;
    background-color: rgb(205, 163, 245);
 }
     
@@ -101,3 +98,29 @@ ul {
     text-align: center;
     list-style-position: inside;
 }
+
+
+.button {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    height: 40px;   
+    font: bold 16pt/150% arial;
+    border: solid 2px rgb(17, 123, 109);
+    border-radius: 10px;   
+    background: radial-gradient(white, #bbb);
+    transition: all 100ms ease-in-out;   
+ }
+ 
+ .button:hover {
+    background: radial-gradient(#dddddd68, #999);
+ }
+ 
+ .button:active {
+    transform: scale(1.05, 1.05);
+    color: rgb(31, 19, 68);  
+    cursor: pointer;
+ }
+ 
+

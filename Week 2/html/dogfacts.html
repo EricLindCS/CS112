@@ -6,6 +6,9 @@
 <title>Dogs!</title>
 <link rel="stylesheet" href="../css/dogfactsCSS.css">  
 </style>
+<script>
+
+</script>
 </head>
 
 <body>
@@ -28,30 +31,36 @@
       <h3>Here are some fun facts about dogs!</h3>
 </div>
 <hr>
+
+
+<script> 
+let num = 1;
+var igra = [
+    "a","b","c","d"
+]
+function randomfact() {  
+    let rand = Math.floor(Math.random() * igra.length);
+    var broj = igra[rand];
+   console.log(broj);
+   num = num +1;
+   document.getElementById("p1").innerHTML = broj;
+   document.getElementById("p0").innerHTML = "Fact " + (rand+1) + ":";
+}
+
+</script>
 <div class ="Fact">
-    <img src="../images/mocha.jpg" alt="An Image" width="100" id="fl"/>
-    <h3>Fact 1: </h3>
-    <p>hi1</p>
-    <p><a href="https://en.wikipedia.org/wiki/Australian_Cattle_Dog">Source</a></p>
-</div>
-<div class ="Fact">
-    <img src="../images/mocha.jpg" alt="An Image" width="100" id="fr"/>
-    <h3>Fact 1: </h3>
-    <p>hi1</p>
-    <p><a href="https://en.wikipedia.org/wiki/Australian_Cattle_Dog">Source</a></p>
+    <h2 id="p0">Fact 1: </h2>
+    <p id="p1">A Fact</p>
 </div>
 
-<div class ="Fact">
-    <img src="../images/mocha.jpg" alt="An Image" width="100" id="fl"/>
-    <h3>Fact 1: </h3>
-    <p>hi1</p>
-    <p><a href="https://en.wikipedia.org/wiki/Australian_Cattle_Dog">Source</a></p>
+<div id ="submit"> 
+    <button onclick="randomfact()" class="button">Next Fact!</button>
 </div>
 
 <hr>
 
 <div class="Section0">
-    
+    <h2>Sources</h2>
 </div>
 
 </body>
