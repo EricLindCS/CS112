@@ -6,6 +6,7 @@
 <title>Dogs!</title>
 <link rel="stylesheet" href="../css/aboutCSS.css">  
 </style>
+<script src="../JavaScript/aboutJS.js"></script>
 </head>
 
 <body>
@@ -56,7 +57,7 @@
 
 
 <div class="contactform">
-    <form id="myForm">
+    <form id="myForm" onsubmit="return showConfirmation()">
               <h3>Contact Me!</h3>
               <label for="Name">Name:</label>
               <input type="text" id="name" name="name"><br>
@@ -64,7 +65,7 @@
               <input type="email" id="email" name="email"><br>
               <label for="Message"><h5>Message:</h5></label>
               <textarea id="Message" name="message" rows="5" cols="50"></textarea><br>
-              <input type="submit" value="Send">
+              <button type="submit" onclick="return confirmSubmit()">Submit</button>
         </form>
 </div>
 
