@@ -67,6 +67,7 @@ float: right;
    color:rgb(0, 0, 0);
    padding:.5em;
    text-align:left;
+   height: 110px;
    background-color: rgb(68, 130, 123);
  }
  
@@ -100,7 +101,7 @@ ul {
 
 
 .button {
-    margin: auto;
+  
     text-align: center;
     vertical-align: middle;
     width: 510px;
