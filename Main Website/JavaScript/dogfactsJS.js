@@ -1,3 +1,14 @@
+window.onload = AdjBW;
+
+function AdjBW() {
+var element = document.getElementById("title"),
+    style = window.getComputedStyle(element),
+    top = style.getPropertyValue('width');
+    var element1 = document.getElementById('button');
+    document.getElementById("button").style.width=top;
+}
+    
+
 let num = 1;
 const igra = [
   "Dogs are descendants of wolves and were the first animal to be domesticated by humans.",
@@ -54,12 +65,12 @@ const igra = [
     "Dogs have been domesticated for at least 15,000 years.",
   "There are over 340 different breeds of dogs worldwide.",
   "Dogs can hear sounds at frequencies up to 65,000 Hz (humans can only hear up to 20,000 Hz).",
-  "A dog’s sense of smell is up to 100,000 times better than a human’s.",
+  "A dogs sense of smell is up to 100,000 times better than a human’s.",
   "Dogs sweat through their paw pads.",
   "The average body temperature for a dog is 101.2 degrees Fahrenheit.",
   "Dogs can see in the dark better than humans can.",
   "Dogs have three eyelids.",
-  "A dog’s nose print is unique, much like a human fingerprint.",
+  "A dogs nose print is unique, much like a human fingerprint.",
   "Dalmatians are born completely white and develop spots as they grow older.",
   "Greyhounds are the fastest dogs, capable of running up to 45 miles per hour.",
   "Dogs have been trained to detect various diseases, including cancer and COVID-19.",
@@ -67,21 +78,21 @@ const igra = [
   "Dogs can feel jealousy and guilt.",
   "The tallest dog on record was a Great Dane named Zeus, who was 44 inches tall at the shoulder.",
   "Dogs have been known to save their owners from danger.",
-  "A dog’s whiskers help them navigate and sense their surroundings.",
+  "A dogs whiskers help them navigate and sense their surroundings.",
   "The oldest dog on record was an Australian Cattle Dog named Bluey, who lived to be 29 years and 5 months old.",
   "Dogs can understand up to 250 words and gestures.",
   "The Basenji is the only breed of dog that does not bark.",
   "Pugs were originally bred to be lap dogs for Chinese emperors.",
   "Dogs can have up to 300 million olfactory receptors in their noses.",
-  "The shape of a dog’s ears can affect their hearing ability.",
+  "The shape of a dogs ears can affect their hearing ability.",
   "Dogs have a wet nose to help absorb scent chemicals.",
   "The Chihuahua is the smallest breed of dog.",
-  "Dogs can sense changes in the earth’s magnetic field.",
+  "Dogs can sense changes in the earths magnetic field.",
   "Poodles were originally bred to retrieve ducks and other waterfowl for hunters.",
   "The Alaskan Malamute is one of the oldest breeds of dog.",
   "Dogs can dream just like humans can.",
   "The Shih Tzu was bred to be a companion dog for Chinese royalty.",
-  "A dog’s tail can indicate their mood and emotions.",
+  "A dogs tail can indicate their mood and emotions.",
   "The Afghan Hound has a reputation for being the dumbest breed of dog.",
   "Dogs have been used for various jobs throughout history, including hunting, herding, and protecting.",
   "The Bichon Frise is hypoallergenic, making it a popular choice for people with allergies.",
@@ -99,9 +110,8 @@ const igra = [
 function randomfact() {  
     let rand = Math.floor(Math.random() * igra.length);
     var broj = igra[rand];
-   console.log(broj);
+    
    num = num +1;
    document.getElementById("p1").innerHTML = broj;
    document.getElementById("p0").innerHTML = "Fact " + (rand+1) + ":";
-   console.log(num);
 }
