@@ -122,5 +122,10 @@ setInterval(() => {
   const elem2 = document.getElementById('Fact');
   const elem1 = document.getElementById('button');
   const transformValue = getComputedStyle(elem1).getPropertyValue('transform');
-  elem2.style.transform = transformValue;
-}, 300);
+  var matrixRegex = /matrix\((-?\d*\.?\d+),\s*0,\s*0,\s*(-?\d*\.?\d+),\s*0,\s*0\)/,
+    matches = $(elem1).css('-webkit-transform').match(matrixRegex);
+    console.log(matches[1]);
+  //elem2.style.transform = transformValue;
+  elem2.style.transform = "scale(" + 1/matches[1] + ", " + 1/matches[2] + ")";
+  
+}, 10);
