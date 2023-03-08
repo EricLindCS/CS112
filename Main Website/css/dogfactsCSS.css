@@ -61,7 +61,7 @@ float: right;
      border:1px solid black; 
 }
 
-.Fact {
+#Fact {
     margin: 15px 15px 15px 3px;
     border:1px solid black;
    color:rgb(0, 0, 0);
@@ -100,7 +100,7 @@ ul {
 }
 
 
-.button {
+#button {
     margin: auto;
     text-align: center;
     vertical-align: middle;
@@ -109,14 +109,15 @@ ul {
     border: solid 2px rgb(17, 123, 109);
     border-radius: 10px;   
     background: radial-gradient(white, #bbb);
-    transition: all 100ms ease-in-out;   
+    transition: all 100ms ease-in-out;  
+    transform: scale(1, 1); 
  }
  
- .button:hover {
+ #button:hover {
     background: radial-gradient(#dddddd68, #999);
  }
  
- .button:active {
+ #button:active {
     transform: scale(1.05, 1.05);
     color: rgb(31, 19, 68);  
     cursor: pointer;
