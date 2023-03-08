@@ -119,15 +119,8 @@ function randomfact() {
 
 // continuously update the scale of elem1 to match that of elem2
 setInterval(() => {
-  const elem1 = document.getElementById('Fact');
-  const elem2 = document.getElementById('button');
-  const scale = getComputedStyle(elem2).getPropertyValue('transform');
-  console.log(scale);
-  const newscale = scale.match(/scale\(([^)]+)\)/)[1];
-  console.log(newscale);
-  const [xScale, yScale] = newscale.split(',').map(parseFloat);
-
-// Set the scale value of elem2 to the inverse of elem1's scale value
-  elem1.style.transform = `scale(${1/xScale}, ${1/yScale})`;
-
+  const elem2 = document.getElementById('Fact');
+  const elem1 = document.getElementById('button');
+  const transformValue = getComputedStyle(elem1).getPropertyValue('transform');
+  elem2.style.transform = transformValue;
 }, 300);
