@@ -33,7 +33,7 @@ nav {
 }
 
 #hp  {
-float: right;    
+float: center;    
  margin: 15px 15px 15px 15px;
 }
 
@@ -43,12 +43,12 @@ float: right;
 }
 
 .Section0 {
+    display: block;
     margin: 3px 15px 15px 3px;
-     border:1px solid black;
-    color:rgb(0, 0, 0);
-    padding:1.9em;
-    text-align:center;
-    background-color: rgb(205, 163, 245);
+    text-align: center;
+    background-color: white;
+     padding:.5em;
+     border:1px solid black; 
 }
 
 .Section1Intro{
@@ -61,7 +61,7 @@ float: right;
 }
 
 
-.AgeOldDebate{
+.Contact {
     display: block;
     margin: 3px 10px 10px 3px;
     text-align: center;
@@ -76,27 +76,15 @@ float: right;
     color:rgb(66, 32, 32);
     background-color: white;
     padding:.5em;
-    text-align:right;
-    padding:1.9em;
-}    
-
-.Section2 {
-    margin: 15px 15px 15px 3px;
-     border:1px solid black;
-    color:rgb(22, 34, 22);
-    padding:.5em;
-    background-color: white;
     text-align:left;
-    padding:1.9em;
-}
+}    
 
 .Section3 {
     margin: 15px 15px 15px 3px;
     border:1px solid black;
    color:rgb(0, 0, 0);
-   padding:.5em;
+   padding:1.5em;
    text-align:center;
-   height: 175px;
    background-color: rgb(205, 163, 245);
 }
     
@@ -117,4 +105,13 @@ footer {
 ul {
     text-align: center;
     list-style-position: inside;
+}
+
+.contactform {
+    margin: 15px 15px 15px 3px;
+    border:1px solid black;
+   color:rgb(0, 0, 0);
+   padding:1.5em;
+   text-align:center;
+   background-color: rgb(205, 163, 245);
 }
