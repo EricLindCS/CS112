@@ -3,7 +3,7 @@ const csv = [];
     const rows = document.querySelectorAll("form input");
   document.getElementById("myForm").addEventListener("submit", function(event) {
     event.preventDefault();
-    exportTableToCsv(rows[4].value + "-pitscout.csv");
+    exportTableToCsv(rows[4].value + "-register.csv");
     console.log(rows[0].value);
     
 });
