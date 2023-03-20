@@ -1,0 +1,117 @@
+header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    text-align: center;
+    
+}
+
+body{
+   
+    padding:1em;
+    font-family:Helvetica,Arial,sans-serif;
+    margin-bottom:50px;
+    background-color: aquamarine;
+       clear: both;
+    
+}
+.pageTitle{
+    border:1px solid black;
+    padding:.5em;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+nav {
+  display: block;
+    text-align: center;
+    background-color: white;
+     padding:.5em;
+     border:1px solid black;
+
+}
+
+#hp  {
+float: right;    
+ margin: 15px 15px 15px 15px;
+}
+
+#hp2  {
+    float: left;    
+     margin: 15px 15px 15px 15px;
+}
+
+.Section0 {
+    display: block;
+    margin: 3px 15px 15px 3px;
+    text-align: center;
+    background-color: white;
+     padding:.5em;
+     border:1px solid black; 
+}
+
+.Section1Intro{
+    display: block;
+    margin: 3px 15px 15px 3px;
+    text-align: center;
+    background-color: white;
+     padding:.5em;
+     border:1px solid black; 
+}
+
+
+.Contact {
+    display: block;
+    margin: 3px 10px 10px 3px;
+    text-align: center;
+    background-color: white;
+     padding:.3em;
+     border:1px solid black; 
+}
+
+.Section1 {
+    margin: 3px 15px 15px 3px;
+     border:1px solid black;
+    color:rgb(66, 32, 32);
+    background-color: white;
+    padding:.5em;
+    text-align:left;
+}    
+
+.Section3 {
+    margin: 15px 15px 15px 3px;
+    border:1px solid black;
+   color:rgb(0, 0, 0);
+   padding:1.5em;
+   text-align:center;
+   background-color: rgb(205, 163, 245);
+}
+    
+footer {
+    position: bottom;
+     bottom: 5;
+  height: 30px;  
+    background-color: green;
+    left: 5px;
+    right: 5px;
+    margin-bottom: 0px;
+    text-align: left;
+    color: white;
+    padding: 0,0,0,0;
+    
+}
+    
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.registerForm {
+    margin: 15px 15px 15px 3px;
+    border:1px solid black;
+   color:rgb(0, 0, 0);
+   padding:1.5em;
+   text-align:center;
+   background-color: rgb(205, 163, 245);
+}
