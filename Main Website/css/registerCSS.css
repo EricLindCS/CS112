@@ -115,3 +115,12 @@ ul {
    text-align:center;
    background-color: rgb(205, 163, 245);
 }
+
+.isloggedin {
+    margin: 5px 5px 5px 5px;
+    border:1px solid black;
+   color:rgb(0, 0, 0);
+   padding:0.5em;
+   text-align:center;
+   background-color: rgb(238, 78, 78);
+}
