@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="../css/registerCSS.css">  
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<script src="../JavaScript/register.js"></script>
 
 </head>
 
@@ -36,8 +37,8 @@
 </div>
 
 <div class="registerForm">
-    <form id="myForm" action="../php/insert.php" method="POST">
-            <h3>Fill out this form to Register!</h3>
+    <form id="myForm">
+      <h3>Fill out this form to Register!</h3>
     <label for="FN">First Name: </label>
       <input type="text"  name="fname" required><br><br>
       <label for="LN">Last Name: </label>
@@ -56,8 +57,8 @@
 
       <br><br>
      
-      <input type="submit" value="Register">
-        </form>
+      <button type="submit" id="submit" value="Register">
+    </form>
 </div>
 
 <div class="registerForm">
